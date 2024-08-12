@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hiveclass</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <script src="index.js" defer></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img src = "hiveclassimg.png" alt = "Hiveclass Logo" id = "hiveLogo">
+      <a class="navbar-brand" href="index.html" id = "hiveNav">Hiveclass</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dash.html">DashBoard</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<center>
+  <img src = "betterPE.png" class = "betterPE">
+
+  <div class="card bg-warning">
+    <div class="card-body">
+<h2>I feel...</h2>
+    </div>
+  </div>
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Sad or Upset</h3>
+            <p class="card-text">
+            It's okay to be sad, it's a natural emotion that helps us acknowledge and process difficult experiences. Sadness helps us grow, learn empathy, and heal.</p>
+            <a href= "sad.html" type="button" class="btn btn-warning btn-lg">See Options</a>
+          </div>
+        </div>  
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Happy</h3>
+            <p class="card-text">
+            Being happy is a natural and essential part of life, contributing to our well-being and enriching our experiences.</p>
+            <a href= "happy.html" type="button" class="btn btn-warning btn-lg">See Options</a>
+          </div>
+        </div>
+
+
+
+        
+      </div>
+      <div class="col">
+
+
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Energized</h3>
+            <p class="card-text">Feeling energized is great! This it means you're ready to tackle tasks, embrace life, abd exercise with enthusiasm and vigor. </p>
+               <a href= "energized.html" type="button" class="btn btn-warning btn-lg">See Options</a>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Anxious</h3>
+            <p class="card-text">
+            Feeling anxious is normal and okay. It signals that something needs attention and offers opportunities for growth and resilience. </p>
+              <a href= "anxious.html" type="button" class="btn btn-warning btn-lg">See Options</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+
+
+
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Neutral</h3>
+            <p class="card-text">Feeling neutral is normal and completely okay. It offers a sense of balance and grounding, allowing for rest and reflection.</p>
+                <a href= "neutral.html" type="button" class="btn btn-warning btn-lg">See Options</a>
+          </div>
+        </div>
+
+
+    
+
+
+
+        
+      </div>
+      <div class="col">
+
+
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Bored</h3>
+            <p class="card-text">If you're feeling bored, that's normal and okay. It can signal a need for change or stimulate creativity and exploration.</p>
+                   <a href= "bored.html" type="button" class="btn btn-warning btn-lg">See Options</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  
+<!-- Revision -->
+
+    <img src = "betterPE.png" class = "betterPE">
+
+    <div class="card bg-warning">
+      <div class="card-body">
+  <h2>I feel...</h2>
+      </div>
+    </div>
+
+
+
+
+  
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Sad or Anxious
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">It's okay to be sad or anxious, it's a natural emotion that helps us acknowledge and process difficult experiences. Anxiety signals that something needs attention and offers opportunities for growth and resilience. Sadness helps us grow, learn empathy, and heal.
+        
+<div class="card bg-warning">
+  <div class="card-body">
+    <h2>I feel...</h2>
+  </div>
+</div>
+
+        
+        
+        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Neutral or Bored
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Feeling neutral or bored is normal and completely okay. It offers a sense of balance and grounding, allowing for rest and reflection or it can signal a need for change or stimulate creativity and exploration.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Energized or Happy
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Feeling energized is great! This it means you're ready to tackle tasks, embrace life, and exercise with enthusiasm and vigor.</div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
